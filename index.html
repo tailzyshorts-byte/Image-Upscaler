@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UpRes - Batch Image Upscaler for Canva</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Inline styles for landing-specific hero features */
+    .hero-btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .secondary-btn {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      padding: 0.8rem 2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+    .secondary-btn:hover {
+      background-color: var(--bg-secondary);
+      border-color: var(--text-muted);
+    }
+    .primary-cta {
+      background: var(--accent-gradient);
+      color: #fff;
+      padding: 0.8rem 2rem;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+    }
+    .primary-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(139, 92, 246, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">UpRes<span>.</span></a>
+      <div class="nav-links">
+        <a href="support.html" class="nav-link">Support</a>
+        <a href="terms.html" class="nav-link">Terms</a>
+        <a href="privacy.html" class="nav-link">Privacy</a>
+        <a href="https://www.canva.com/developers/apps" class="nav-btn" target="_blank">Open in Canva</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Batch Upscale Your Images with <span>UpRes</span></h1>
+      <p>Enhance resolution up to 8x, remove sensor noise, and sharpen details in seconds. Fully integrated inside your Canva Editor workflow.</p>
+      
+      <div class="hero-btn-container">
+        <a href="https://www.canva.com/developers/apps" class="primary-cta" target="_blank">Open UpRes in Canva</a>
+        <a href="support.html" class="secondary-btn">Contact Support</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="features-grid">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>10x Priority Speed</h3>
+          <p>Toggle priority processing speeds to bypass standard queues. Get upscaled and enhanced layouts ready in a fraction of the time.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🖼️</div>
+          <h3>8x Ultra-HD Scaling</h3>
+          <p>Go beyond standard multipliers. Boost your image dimensions up to 8x the original resolution for high-definition large print outputs.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">✨</div>
+          <h3>Denoise & Sharpen</h3>
+          <p>Clean up jpeg blocking artifacts and enhance edge contrasts using professional-grade bilateral filters and unsharp masking algorithms.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <a href="index.html" class="footer-logo">UpRes</a>
+      <span class="footer-text">&copy; 2026 UpRes. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="support.html" class="footer-link">Support</a>
+        <a href="terms.html" class="footer-link">Terms of Service</a>
+        <a href="privacy.html" class="footer-link">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
